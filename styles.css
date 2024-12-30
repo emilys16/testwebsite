@@ -4,7 +4,7 @@
 .container{
     width: 600px;
     margin: auto;
-    border: thin solid black;
+    border: solid #6cab79;
     padding: 25px;
 }
 
