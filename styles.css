@@ -24,3 +24,16 @@
 .grid img{
     width: 100%;
 }
+
+.displayer {
+    display: inline-block;
+    width: 75%;
+    height: auto;
+    text-align: justify;
+    background-color: transparent;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
