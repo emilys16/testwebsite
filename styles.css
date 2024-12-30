@@ -10,3 +10,14 @@
     justify-content: space-around;
     font-size: 24px;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #6cab79;
+    padding: 10px;
+}
+
+.grid img{
+    width: 100%;
+}
