@@ -41,12 +41,12 @@
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">
 
         <!--Start of web content-->
-        <h1>Hello World</h1>
-
-        <p>Welcome to my Github Pages site</p>
-
-        <p>Link more <a href="about.html">about me</a></p>
-
-    </div>
-</body>
-</html>
+<h1>Blog Posts</h1>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{https://emilys16.github.io/testwebsite/_posts/2024-12-30-my-first-blog-post.md}}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
