@@ -17,7 +17,7 @@
 .grid{
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #6cab79;
+    background-color: #255978;
     padding: 10px;
 }
 
@@ -37,3 +37,83 @@
     width: 100%;
     height: auto;
   }
+
+  body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #255978;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #3887b5;
+    color: white;
+  }
+
+  .title {
+    text-align: center; /* Centers the content */
+}
+
+
+
+
+
+
+/*for website title and links*/
+.title2{
+    text-align: center;
+}
+.title2 img {
+    width: 150px; /* Adjust image size */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px; /* Adds spacing below the image */
+}
+
+.contact-info {
+    margin-top: 10px; /* Adds spacing above the contact info */
+    font-size: 16px; /* Adjust font size */
+    display: inline-block; /* Keeps content centered */
+    text-align: left; /* Aligns icons and text in the same direction */
+}
+
+.contact-info p {
+    display: flex; /* Enables icon and text alignment */
+    align-items: center;
+    margin: 8px 0; /* Adds spacing between contact items */
+}
+
+.contact-info .icon {
+    width: 20px; /* Icon width */
+    height: 20px; /* Icon height */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.contact-info a {
+    color: #0073b1; /* LinkedIn blue for links */
+    text-decoration: none; /* Removes underline */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
